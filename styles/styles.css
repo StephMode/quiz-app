@@ -71,17 +71,24 @@ div,
   border: 2px solid black;
   background-color: blanchedalmond;
   width: 150px;
-  height: 80px;
+  height: 40px;
   align-content: center;
 }
 
-.card-tags {
+.card-tag-list {
   list-style: none;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   align-self: flex-start;
   gap: 15px;
+}
+
+.card-tag-list li {
+  border: 2px solid black;
+  background-color: goldenrod;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 footer {
