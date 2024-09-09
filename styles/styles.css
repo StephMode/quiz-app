@@ -54,6 +54,9 @@ header {
   padding: 20px;
   background-color: lightgoldenrodyellow;
 
+  /* Solution to make bookmark button stick out - PART ONE  */
+  position: relative;
+
   /* flexbox within cards */
   display: flex;
   flex-direction: column;
@@ -68,6 +71,16 @@ div,
   border: 2px solid green;
 } */
 
+.card i {
+  /* Solution to make bookmark button stick out - PART TWO  */
+  position: absolute;
+  top: -10px;
+  /* -10 px makes the button sticking out on the top slightly */
+  right: 10px;
+  /* icon size */
+  font-size: 2.2rem;
+}
+
 .card p {
   font-size: 1.5rem;
 }
@@ -77,7 +90,10 @@ div,
   background-color: blanchedalmond;
   width: 150px;
   height: 40px;
+  /* !! hier muss ich noch von fixen Werten zu flexbox Werten kommen */
   align-content: center;
+  /* um den button text in die Mitte zu bekommen */
+  font-size: 1.3rem;
 }
 
 .card-tag-list {
@@ -105,10 +121,6 @@ footer {
   /* border: 3px solid hotpink; */
 }
 
-i {
-  color: black;
-}
-
 .nav-bar {
   list-style: none;
   display: flex;
@@ -118,4 +130,9 @@ i {
   gap: 10px;
   background-color: antiquewhite;
   /* border: 3px solid burlywood; */
+}
+
+.nav-bar i {
+  color: black;
+  font-size: 2.5rem;
 }
