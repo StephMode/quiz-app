@@ -52,6 +52,16 @@ header {
   text-align: center;
   padding: 20px;
   background-color: lightgoldenrodyellow;
+
+  /* flexbox within cards */
+  display: flex;
+  flex-direction: column;
+}
+
+.card p,
+div,
+.card-tags {
+  border: 2px solid green;
 }
 
 footer {
