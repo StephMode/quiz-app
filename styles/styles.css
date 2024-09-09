@@ -63,10 +63,15 @@ footer {
   /* border: 3px solid hotpink; */
 }
 
+i {
+  color: black;
+}
+
 .nav-bar {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 0;
   gap: 10px;
   background-color: antiquewhite;
