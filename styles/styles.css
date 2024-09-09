@@ -34,6 +34,45 @@ header {
   font-size: 2.4rem;
 }
 
+/* START CSS declaraitions for profile page */
+
+.profile-box {
+  display: flex;
+  flex-direction: column;
+
+  background-color: aqua;
+
+  border: 2px solid black;
+}
+
+#profile-img {
+  font-size: 6rem;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-box {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 5px;
+  width: 50px;
+  height: 25px;
+  border: 2px solid black;
+}
+
+.settings-box {
+  display: flex;
+  flex-direction: row;
+}
+
+/* END CSS declaraitions for profile page */
+
+/* START: CSS declarations for all pages containing learning flashcards */
+
 .card-area {
   display: flex;
   flex-direction: column;
@@ -111,6 +150,8 @@ div,
   border-radius: 5px;
   padding: 5px;
 }
+
+/* END: CSS declarations for all pages containing learning flashcards */
 
 footer {
   position: sticky;
