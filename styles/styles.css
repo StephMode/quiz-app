@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  border: 5px solid black;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid green;
+}
+
+header {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 50px;
+  margin-top: 20px;
+}
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  gap: 10px;
+}
