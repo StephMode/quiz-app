@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0 auto;
   height: 100%;
+  width: 500px;
 }
 
 .flex-wrapper {
@@ -47,7 +48,7 @@ header {
 .card {
   /* border: 3px solid blue; */
   /* hier besser mit flex-basis attributen arbeiten */
-  width: 300px;
+  width: 400px;
   height: 300px;
   text-align: center;
   padding: 20px;
@@ -61,10 +62,14 @@ header {
 }
 
 /* nur behelfsmäßig fürs flexbox styling */
-.card p,
+/* .card p,
 div,
 .card-tags {
   border: 2px solid green;
+} */
+
+.card p {
+  font-size: 1.5rem;
 }
 
 .card-button {
