@@ -16,32 +16,43 @@
       <header>
         <h1 id="title">Quiz App</h1>
       </header>
-      <div class="profile-box">
-        <i class="material-icons" id="profile-img">person</i>
-        <h2>Jane Doe</h2>
-        <h3>About Me</h3>
-        <p>
-          About me text About me text About me text About me text About me text
-          About me text About me text About me text About me text About me text
-        </p>
-    
-          <div class="button-box">
-            <i class="material-icons">library_books</i>
-            <p>2</p>
-          </div>
-          <div class="button-box">
-            <i class="material-icons">bookmark</i>
-            <p>2</p>
-          </div>
-          <h3>Settings</h3>
-          <div id="settings-box">
-              <div class="dark-mode-toggle">
-                  <label>Dark Mode</label>
-                  <i class="material-icons">toggle_on</i>
-                </div>
-            </div>
-        </div>
-      </section>
+      <main class="profile--flex-container">
+        <ul class="profile--heading--flex-container">
+          <li><i class="material-icons" id="profile--image">person</i></li>
+          <li><h2 class="profile--heading-username">Jane Doe</h2></li>
+        </ul>
+        <ul class="profile--content--flex-container">
+          <li><h3 class="profile--sub-heading">About Me</h3></li>
+          <li>
+            <p class="profile--about-me-text">
+              About me text About me text About me text About me text About me
+              text About me text About me text About me text About me text About
+              me text
+            </p>
+          </li>
+        </ul>
+
+        <section class="profile--button-flex-wrapper">
+          <ul class="profile--button-flex-container">
+            <li><i class="material-icons">library_books</i></li>
+            <li><p>2</p></li>
+          </ul>
+
+          <ul class="profile--button-flex-container">
+            <li><i class="material-icons">bookmark</i></li>
+            <li><p>2</p></li>
+          </ul>
+        </section>
+
+        <h3 class="profile--settings-sub-heading">Settings</h3>
+        <ul class="profile--settings-flex-container">
+          <li><label>Dark Mode</label></li>
+          <li>
+            <i class="material-icons">toggle_on</i>
+          </li>
+        </ul>
+      </main>
+
       <footer>
         <ul class="nav-bar">
           <li class="you-are-here">
