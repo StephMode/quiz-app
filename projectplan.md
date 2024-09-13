@@ -2,11 +2,11 @@
 
 **Outline**: App for Learning Flashcards with Bookmarking- and Tagging-Feature. UI shall resemble mobile app with Navbar at bottom of viewport. App shall provide dark mode and light mode
 
-# Top of Mind Agenda
+# Sprint Planning
 
 As of: 15.09.
 
-1. Finish Profile Page
+1. Finish Profile Page ✅
 2. HTML & CSS Structure Improvements
 3. Impelement Darkmode Button
 
