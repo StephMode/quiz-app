@@ -1,3 +1,22 @@
+@import url(/styles/components/profile_page.css);
+
+/* variables aka custom props */
+
+:root {
+  /* colors */
+  --font-color: black;
+
+  /* font-sizes */
+  --font-size-h1: 2.4rem;
+  --font-size-h2: 2rem;
+  --font-size-h3: 1.8rem;
+  --font-size-button: 1.4rem;
+}
+
+/* variables END */
+
+/* global */
+
 body {
   text-align: center;
   /* border: 5px solid black; */
@@ -6,6 +25,13 @@ body {
   height: 100%;
   width: 500px;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* global end */
 
 .flex-wrapper {
   display: flex;
@@ -33,6 +59,8 @@ header {
   display: inline-block;
   font-size: 2.4rem;
 }
+
+/* START: CSS declarations for all pages containing learning flashcards */
 
 .card-area {
   display: flex;
@@ -111,6 +139,8 @@ div,
   border-radius: 5px;
   padding: 5px;
 }
+
+/* END: CSS declarations for all pages containing learning flashcards */
 
 footer {
   position: sticky;

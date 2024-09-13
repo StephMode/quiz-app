@@ -1,0 +1,93 @@
+/* START CSS declaraitions for profile page */
+
+.profile--flex-container {
+  display: flex;
+  flex-direction: column;
+
+  /* padding: 0px 15px; */
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.profile--heading--flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile--heading-username {
+  font-size: var(--font-size-h2);
+  color: var(--font-color);
+}
+
+#profile--image {
+  font-size: 6rem;
+}
+
+.profile--content--flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.profile--sub-heading {
+  font-size: var(--font-size-h3);
+  color: var(--font-color);
+}
+
+.profile--about-me-text {
+  color: var(--font-color);
+  text-align: left;
+  border-left: 2.5px solid black;
+  padding: 5px;
+}
+
+.profile--button-flex-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profile--button-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0;
+
+  height: 40px;
+  width: 30%;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-box {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 5px;
+  width: 50px;
+  height: 25px;
+  border: 2px solid black;
+}
+
+.profile--settings-sub-heading {
+  font-size: var(--font-size-h3);
+  color: var(--font-color);
+  text-align: left;
+}
+
+.profile--settings-flex-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-size-button);
+}
