@@ -38,7 +38,7 @@
     border: 2px solid green;
   } */
 
-.card i {
+.card--icon {
   /* Solution to make bookmark button stick out - PART TWO  */
   position: absolute;
   top: -10px;
@@ -46,6 +46,24 @@
   right: 10px;
   /* icon size */
   font-size: 2.2rem;
+}
+
+.card--icon--not-added::before {
+  content: "bookmark";
+  font-size: var(--font-size--bookmark-icon);
+}
+
+.card--icon--not-added:hover {
+  color: var(--font-color-icon--bookmark--mouse-over);
+}
+
+.card--icon--added::before {
+  content: "bookmark_added";
+  font-size: var(--font-size--bookmark-icon);
+}
+
+.card--icon--added:hover {
+  color: var(--font-color-icon--bookmark--mouse-over);
 }
 
 .card p {

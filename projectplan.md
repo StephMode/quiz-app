@@ -12,10 +12,13 @@
 
 ## 18.09. recap project 2
 
-1. HTML & CSS Structure Improvements
-2.
-3. Implement JS based features (tbd)
-4. …
+1. HTML & CSS Structure Improvements ✅
+2. Implement JS bookmark toggle feature
+3. Implement JS answer button
+4. Implement card creation-feature (html.site), (JS feature) , form field text
+   1. html site
+   2. JS feature to create new card inside form html
+   3. form field text counter
 
 # User Stories
 
@@ -29,13 +32,14 @@
 3. Layout for footer ✅
 4. Make HTML more semantic ✅
 5. Improve Structure of CSS by splitting the stylesheet up per feature and global ✅
-6. Improve CSS by using variables
+6. Improve CSS by using variables ✅
 
 ### Design
 
 1. Layout for Header ✅
 2. Footer fixing an vh ende fixen ✅
-3. Make design responsive with media queries
+3. [*low prio*] Make design responsive with media queries
+4. [*low prio*] Implement JS dark mode button
 
 ## Story 2 - Home Page
 
@@ -46,10 +50,19 @@
 ## Story 3 - Question Card
 
 1. Question Cards - basic flexbox structure ✅
-2. Improve flexbox structure with dynamic width/hgth vlaues
-3. Make bookmarking dynamic with CSS (require input)
+2. [*low prio*] Improve flexbox structure with dynamic width/hgth vlaues
+3. [*low prio*] Make bookmarking dynamic with CSS (require input)
+4. Make bookmark-indicator toggleable with JS
 
-## Story 4 - Profile Page
+Create new
+
+## Story 4 - Bookmark Page
+
+1. Create site w/ flexbox structure ✅
+2. Hard code cards into it ✅
+3.
+
+## Story 5 - Profile Page
 
 1. Basic flexbox structure ✅
 2. Button for Counter _Created Question_ ✅

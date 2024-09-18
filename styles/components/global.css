@@ -6,6 +6,7 @@
   /* font-color for i */
   --font-color-icon-regular: black;
   --font-color-icon-navbar-youAreHere-indicator: grey;
+  --font-color-icon--bookmark--mouse-over: lightgrey;
 
   /* background-color */
 
@@ -20,6 +21,7 @@
   --font-size-h2: 2rem;
   --font-size-h3: 1.8rem;
   --font-size-button: 1.4rem;
+  --font-size--bookmark-icon: 2.3rem;
 
   /* border-radius */
   --border-radius--card--tag-list--tag: 8px;
