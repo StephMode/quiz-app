@@ -6,6 +6,9 @@
   /* font-color for i */
   --font-color-icon-regular: black;
   --font-color-icon-navbar-youAreHere-indicator: grey;
+
+  /* hover colors */
+  --card--answer-button--mouse-over: lightgrey;
   --font-color-icon--bookmark--mouse-over: lightgrey;
 
   /* background-color */
