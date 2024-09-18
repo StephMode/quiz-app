@@ -1,13 +1,28 @@
 /* variables aka custom props */
 :root {
-  /* colors */
+  /* font-colors */
   --font-color: black;
+
+  /* font-color for i */
+  --font-color-icon-regular: black;
+  --font-color-icon-navbar-youAreHere-indicator: grey;
+
+  /* background-color */
+
+  --bcg-header-footer: antiquewhite;
+  --bcg-card: lightgoldenrodyellow;
+  --bcg-card-button: blanchedalmond;
+  --bcg-card--tag-list: rgb(244, 219, 156);
+  --bcg-card--tag-list--tag: goldenrod;
 
   /* font-sizes */
   --font-size-h1: 2.4rem;
   --font-size-h2: 2rem;
   --font-size-h3: 1.8rem;
   --font-size-button: 1.4rem;
+
+  /* border-radius */
+  --border-radius--card--tag-list--tag: 8px;
 }
 
 /* variables END */

@@ -6,7 +6,7 @@ footer {
   height: 70px;
   /* margin-top: 20px; */
   /* habe ich nicht mehr gebraucht, nach dem ich das aus der flexbox rausgelöst habe */
-  background-color: antiquewhite;
+  background-color: var(--bcg-header-footer);
   align-content: center;
   z-index: 10;
   /* border: 3px solid hotpink; */
@@ -22,7 +22,7 @@ footer {
 
   padding: 0;
   gap: 10px;
-  background-color: antiquewhite;
+  background-color: var(--bcg-header-footer);
 
   /* border: 3px solid burlywood; */
 }
@@ -32,12 +32,12 @@ footer {
   } */
 
 .nav-bar i {
-  color: black;
+  color: var(--font-color-icon-regular);
   font-size: 2.5rem;
 }
 
 /* man muss in diesem Fall direkt das i innerhalb des elements mit der class ansprechen, um es beeinflussen zu könnnen */
 .you-are-here i {
-  color: grey;
+  color: var(--font-color-icon-navbar-youAreHere-indicator);
   font-size: 3rem;
 }

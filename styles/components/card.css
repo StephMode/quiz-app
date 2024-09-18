@@ -19,7 +19,7 @@
   height: 300px;
   text-align: center;
   padding: 20px;
-  background-color: lightgoldenrodyellow;
+  background-color: var(--bcg-card);
 
   /* Solution to make bookmark button stick out - PART ONE  */
   position: relative;
@@ -54,7 +54,7 @@
 
 .card-button {
   border: 2px solid black;
-  background-color: blanchedalmond;
+  background-color: var(--bcg-card-button);
   width: 150px;
   height: 40px;
   /* !! hier muss ich noch von fixen Werten zu flexbox Werten kommen */
@@ -70,12 +70,13 @@
   flex-wrap: wrap;
   align-self: flex-start;
   gap: 15px;
+  background-color: var(--bcg-card--tag-list);
 }
 
 .card-tag-list li {
   border: 2px solid black;
-  background-color: goldenrod;
-  border-radius: 5px;
+  background-color: var(--bcg-card-tag--list--tag);
+  border-radius: var(--border-radius--card--tag-list--tag);
   padding: 5px;
 }
 
