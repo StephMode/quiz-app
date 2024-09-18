@@ -13,7 +13,7 @@
 ## 18.09. recap project 2
 
 1. HTML & CSS Structure Improvements ✅
-2. Implement JS bookmark toggle feature
+2. Implement JS bookmark toggle feature ✅
 3. Implement JS answer button
 4. Implement card creation-feature (html.site), (JS feature) , form field text
    1. html site
@@ -52,7 +52,8 @@
 1. Question Cards - basic flexbox structure ✅
 2. [*low prio*] Improve flexbox structure with dynamic width/hgth vlaues
 3. [*low prio*] Make bookmarking dynamic with CSS (require input)
-4. Make bookmark-indicator toggleable with JS
+4. Make bookmark-indicator toggleable with JS ✅
+5. Implement JS answer button
 
 Create new
 
