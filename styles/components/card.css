@@ -66,8 +66,13 @@
   color: var(--font-color-icon--bookmark--mouse-over);
 }
 
-.card p {
+.card-answer {
   font-size: 1.5rem;
+  display: none;
+}
+
+.card-answer--shown {
+  display: block;
 }
 
 .card-button {
@@ -79,6 +84,21 @@
   align-content: center;
   /* um den button text in die Mitte zu bekommen */
   font-size: 1.3rem;
+}
+
+.card-button--answer-hidden-state::before {
+  content: "Show Answer";
+}
+
+.card-button--answer-displayed-state::before {
+  content: "Hide Answer";
+}
+
+.card-button:hover {
+  background-color: var(--card--answer-button--mouse-over);
+}
+
+.card-button:active {
 }
 
 .card-tag-list {
