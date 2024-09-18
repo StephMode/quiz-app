@@ -4,31 +4,44 @@
 
 # Sprint Planning
 
-As of: 15.09.
+## 15.09. personal study time
 
 1. Finish Profile Page ✅
-2. HTML & CSS Structure Improvements
-3. Impelement Darkmode Button
+2. HTML & CSS Structure Improvements ❌
+3. Impelement Darkmode Button ❌
+
+## 18.09. recap project 2
+
+1. HTML & CSS Structure Improvements
+2.
+3. Implement JS based features (tbd)
+4. …
 
 # User Stories
 
-## Story 1 - HTML and CSS Structure
+## Story 1 - HTML and CSS
+
+### Structure
 
 1. Basic HTML Structure ✅
-2. Layout for Header ✅
-3. Section for Cards _aka <main> area_ ✅
-4. Layout for footer ✅
-5. Make HTML more semantic
-6. Improve Structure of CSS by splitting the stylesheet up per feature and global
-7. Improve CSS by using variables
-8. Make design responsive with media queries
-9. Footer fixing an vh ende nochmal fixen
+
+2. Section for Cards _aka <main> area_ ✅
+3. Layout for footer ✅
+4. Make HTML more semantic ✅
+5. Improve Structure of CSS by splitting the stylesheet up per feature and global ✅
+6. Improve CSS by using variables
+
+### Design
+
+1. Layout for Header ✅
+2. Footer fixing an vh ende fixen ✅
+3. Make design responsive with media queries
 
 ## Story 2 - Home Page
 
 1. Basic flexbox structure ✅
 2. Include bookmark-icons ✅
-3. Fix header bar
+3. Fix header bar ✅
 
 ## Story 3 - Question Card
 

@@ -1,0 +1,82 @@
+/* START: CSS declarations for all pages containing learning flashcards */
+
+.card-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin-top: 80px;
+  padding-top: 10px;
+  /* border: 3px solid hotpink; */
+  height: 100%;
+}
+
+.card {
+  /* border: 3px solid blue; */
+  /* hier besser mit flex-basis attributen arbeiten */
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+
+  /* Solution to make bookmark button stick out - PART ONE  */
+  position: relative;
+
+  /* flexbox within cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* nur behelfsmäßig fürs flexbox styling */
+/* .card p,
+  div,
+  .card-tags {
+    border: 2px solid green;
+  } */
+
+.card i {
+  /* Solution to make bookmark button stick out - PART TWO  */
+  position: absolute;
+  top: -10px;
+  /* -10 px makes the button sticking out on the top slightly */
+  right: 10px;
+  /* icon size */
+  font-size: 2.2rem;
+}
+
+.card p {
+  font-size: 1.5rem;
+}
+
+.card-button {
+  border: 2px solid black;
+  background-color: blanchedalmond;
+  width: 150px;
+  height: 40px;
+  /* !! hier muss ich noch von fixen Werten zu flexbox Werten kommen */
+  align-content: center;
+  /* um den button text in die Mitte zu bekommen */
+  font-size: 1.3rem;
+}
+
+.card-tag-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  gap: 15px;
+}
+
+.card-tag-list li {
+  border: 2px solid black;
+  background-color: goldenrod;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* END: CSS declarations for all pages containing learning flashcards */
