@@ -16,8 +16,8 @@
 2. Implement JS bookmark toggle feature ✅
 3. Implement JS answer button ✅
 4. Implement card creation-feature (html.site), (JS feature) , form field text
-   1. html site
-   2. JS feature to create new card inside form html
+   1. html site ✅
+   2. JS feature to create new card inside form html ✅
 5. form field text counter
 
 # User Stories

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <script src="/scripts/form.js" defer></script>
+    <script src="/scripts/bookmark-toggle.js" defer></script>
+    <script src="/scripts/answer-button.js" defer></script>
+
+    <!-- stylesheet link for google icons -->
+    <title>Quizz App</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title" id="title">Quiz App</h1>
+    </header>
+    <main class="card-area" data-js="card-area">
+      <h2>Create a new card</h2>
+      <form class="form--body" data-js="form">
+        <fieldset class="fieldset--body">
+          <label for="question">Your Question</label>
+          <textarea
+            name="question"
+            id="question"
+            data-js="form-input-question"
+            cols="30"
+            rows="5"
+          ></textarea>
+          <p data-js="question-count">150 Characters Left</p>
+          <label for="answer">Your Answer</label>
+          <textarea
+            name="answer"
+            id="answer"
+            data-js="form-input-answer"
+            cols="30"
+            rows="5"
+          ></textarea>
+          <p data-js="answer-count">150 Characters Left</p>
+          <label for="tag">Tag</label>
+          <input type="text" name="tag" id="tag" />
+        </fieldset>
+        <button type="submit" data-js="form-create-card-button">
+          Create Card
+        </button>
+      </form>
+    </main>
+    <footer>
+      <ul class="nav-bar">
+        <li>
+          <a href="index.html" title="link-to-homepage">
+            <i class="material-icons">home</i>
+          </a>
+        </li>
+        <li>
+          <a href="booksmarks.html" title="link-to-bookmarks">
+            <i class="material-icons">bookmarks</i>
+          </a>
+        </li>
+        <li class="you-are-here">
+          <a href="form.html" title="link-to-form-for-new-card">
+            <i class="material-icons">add_circle</i>
+          </a>
+        </li>
+        <li>
+          <a href="profile-page.html" title="link-to-profile">
+            <i class="material-icons">navigation</i></a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+.form--body {
+  /* border: 3px solid blue; */
+  /* hier besser mit flex-basis attributen arbeiten */
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  padding: 5px;
+  background-color: var(--bcg-card);
+
+  /* Solution to make bookmark button stick out - PART ONE  */
+  position: relative;
+
+  /* flexbox within cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fieldset--body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+  height: 80%;
+}
